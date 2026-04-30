@@ -32,4 +32,4 @@ Features
 
 
 ## 📌 Author
-Jainab Rafique
+Zainab Rafique
