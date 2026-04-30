@@ -112,11 +112,6 @@ The application follows a 3-Tier Architecture:
 StaySavvy provides a reliable and efficient solution for hotel management. By combining strong data structure concepts with a practical GUI-based system, it ensures high performance and usability in real-world scenarios.
 
 
-## Future Enhancements
 
-* Online booking system
-* Mobile application integration
-* Cloud database support
-* Role-based access control
 
 ---
