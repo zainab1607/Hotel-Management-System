@@ -1,51 +1,122 @@
-StaySavvy: Hotel Room Management System
-StaySavvy is a comprehensive software application developed to optimize operations within small to medium-sized hotels. This project successfully leverages key data structures to provide a robust and efficient user experience.
+# StaySavvy: Hotel Room Management System
 
-Introduction and Background
-The system is implemented as a Windows Forms application using C#. It provides an intuitive graphical user interface (GUI) that enables hotel staff to effectively manage room reservations, guest information, and availability. The primary objective is to streamline hotel management processes, enhancing both operational efficiency and the overall user experience.
+StaySavvy is a comprehensive software application designed to optimize operations within small to medium-sized hotels. It leverages fundamental data structures to deliver a robust, efficient, and user-friendly experience.
 
-Technical Implementation (Data Structures)
-This project utilizes fundamental data structures to handle complex logic:
 
-Linked Lists: Implemented for efficient room management, allowing for dynamic adding, updating, and deleting of room details.
 
-Binary Search Trees (BST): Utilized to provide accelerated search functionalities, enabling staff to quickly identify rooms by Room Number or Guest ID.
+## Introduction
 
-Stacks: Integrated to provide robust Undo/Redo capabilities specifically for booking modifications.
+StaySavvy is developed as a Windows Forms application using C#. It provides an intuitive graphical user interface (GUI) that enables hotel staff to efficiently manage:
 
-Key Features
-Room Management: Full CRUD (Create, Read, Update, Delete) operations for the hotel's room inventory.
+* Room reservations
+* Guest information
+* Room availability
 
-Booking System: Facilitates seamless room reservations and cancellations with real-time availability updates.
+The main objective is to streamline hotel operations, improving both efficiency and user experience.
 
-Customer Management: Stores guest profiles and reservation history, searchable by Name or NIC Number.
 
-Comprehensive Reporting: Generates detailed insights regarding revenue, occupancy, and customer statistics.
 
-Undo/Redo Actions: A stack-based system to revert or reinstate booking changes, preventing data entry errors.
+## Technical Implementation
 
-System Architecture
-The application follows a multi-layered (3-Tier) architecture to ensure modularity and maintainability:
+This project integrates key data structures to handle system logic effectively:
 
-Presentation Layer (UI): Built with Windows Forms for a user-friendly desktop experience.
+* Linked Lists
+  Used for dynamic room management (add, update, delete operations).
 
-Business Logic Layer (BLL): Orchestrates data flow and implements core algorithms using Linked Lists, BSTs, and Stacks.
+* Binary Search Trees (BST)
+  Enable fast searching of rooms by Room Number or Guest ID.
 
-Data Access Layer (DAL): Manages all interactions with the SQL Server database for data persistence.
+* Stacks
+  Provide Undo/Redo functionality for booking operations.
 
-Setup and Installation
-Database: Navigate to the /Database folder and run the SQLQuery1.sql script in SQL Server Management Studio (SSMS).
 
-Open Project: Launch Visual Studio and open the hotel.sln file located in the /Source folder.
+## Key Features
 
-Configuration: Update the connection string in the code to match your local SQL Server instance.
+* Room Management
+  Full CRUD operations for managing hotel rooms.
 
-Run: Press F5 or click "Start" to launch the application.
+* Booking System
+  Seamless reservations and cancellations with real-time updates.
 
-Developer Information
-Name: Zainab Rafique
+* Customer Management
+  Store and search guest data using Name or NIC.
 
-Institute: Karachi Institute of Economics and Technology (KIET)
+* Reporting System
+  Generate reports for:
 
-Conclusion
-StaySavvy stands as a robust solution for the hospitality industry, successfully meeting its goals of delivering functional, reliable, and high-performance room management through advanced computer science principles
+  * Revenue
+  * Occupancy
+  * Customer statistics
+
+* Undo/Redo Functionality
+  Stack-based system to revert booking changes.
+
+
+
+## System Architecture
+
+The application follows a 3-Tier Architecture:
+
+### Presentation Layer (UI)
+
+* Built using Windows Forms
+* Provides a user-friendly interface
+
+### Business Logic Layer (BLL)
+
+* Implements core logic
+* Uses Linked Lists, BST, and Stacks
+
+### Data Access Layer (DAL)
+
+* Handles communication with SQL Server
+* Manages data storage and retrieval
+
+
+## Setup and Installation
+
+### Step 1: Database Setup
+
+* Navigate to the `/Database` folder
+* Open `SQLQuery1.sql` in SQL Server Management Studio (SSMS)
+* Execute the script
+
+
+
+### Step 2: Open Project
+
+* Open Visual Studio
+* Load `hotel.sln` from the `/Source` folder
+
+
+
+### Step 3: Configuration
+
+* Update the connection string in the code
+* Match it with your local SQL Server instance
+
+
+### Step 4: Run Application
+
+* Press F5 or click Start
+
+
+## Developer Information
+
+* Name: Zainab Rafique
+* Institute: Karachi Institute of Economics and Technology (KIET)
+
+
+## Conclusion
+
+StaySavvy provides a reliable and efficient solution for hotel management. By combining strong data structure concepts with a practical GUI-based system, it ensures high performance and usability in real-world scenarios.
+
+
+## Future Enhancements
+
+* Online booking system
+* Mobile application integration
+* Cloud database support
+* Role-based access control
+
+---
